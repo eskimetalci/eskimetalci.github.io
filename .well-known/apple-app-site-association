@@ -1,0 +1,23 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "4Y6KFQQWHW.com.meloflow.pomelo",
+          "4Y6KFQQWHW.com.meloflow.pomelo.staging",
+          "4Y6KFQQWHW.com.meloflow.pomelo.dev"
+        ],
+        "components": [
+          { "/": "/trello/callback*", "comment": "Trello sign-in returns here" }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "4Y6KFQQWHW.com.meloflow.pomelo",
+      "4Y6KFQQWHW.com.meloflow.pomelo.staging",
+      "4Y6KFQQWHW.com.meloflow.pomelo.dev"
+    ]
+  }
+}
