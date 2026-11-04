@@ -1,0 +1,10 @@
+{
+  "client_id": "https://eskimetalci.github.io/todoist/client.json",
+  "client_name": "Pomelo",
+  "client_uri": "https://eskimetalci.github.io/pomelo-docs/",
+  "redirect_uris": ["https://eskimetalci.github.io/todoist/callback"],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
+  "scope": "data:read_write"
+}

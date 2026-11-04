@@ -8,7 +8,14 @@
           "4Y6KFQQWHW.com.meloflow.pomelo.dev"
         ],
         "components": [
-          { "/": "/trello/callback*", "comment": "Trello sign-in returns here" }
+          {
+            "/": "/trello/callback*",
+            "comment": "Trello sign-in returns here"
+          },
+          {
+            "/": "/todoist/callback*",
+            "comment": "Todoist sign-in returns here"
+          }
         ]
       }
     ]
