@@ -1,0 +1,41 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.meloflow.pomelo",
+      "sha256_cert_fingerprints": [
+        "CA:13:E8:5C:86:8F:70:2F:8A:10:00:BA:1D:72:6E:D4:D9:75:61:3A:03:D2:CE:81:C4:8A:06:7D:37:EF:05:E2",
+        "B3:4A:04:A0:E5:99:44:21:BA:87:A5:88:71:27:F1:95:0D:39:87:AB:8E:E9:30:D7:9F:D9:AB:DD:C3:F2:48:3E"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.meloflow.pomelo.staging",
+      "sha256_cert_fingerprints": [
+        "CA:13:E8:5C:86:8F:70:2F:8A:10:00:BA:1D:72:6E:D4:D9:75:61:3A:03:D2:CE:81:C4:8A:06:7D:37:EF:05:E2",
+        "B3:4A:04:A0:E5:99:44:21:BA:87:A5:88:71:27:F1:95:0D:39:87:AB:8E:E9:30:D7:9F:D9:AB:DD:C3:F2:48:3E"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.meloflow.pomelo.dev",
+      "sha256_cert_fingerprints": [
+        "CA:13:E8:5C:86:8F:70:2F:8A:10:00:BA:1D:72:6E:D4:D9:75:61:3A:03:D2:CE:81:C4:8A:06:7D:37:EF:05:E2",
+        "B3:4A:04:A0:E5:99:44:21:BA:87:A5:88:71:27:F1:95:0D:39:87:AB:8E:E9:30:D7:9F:D9:AB:DD:C3:F2:48:3E"
+      ]
+    }
+  }
+]
