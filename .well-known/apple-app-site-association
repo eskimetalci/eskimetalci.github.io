@@ -17,6 +17,51 @@
             "comment": "Todoist sign-in returns here"
           }
         ]
+      },
+      {
+        "appIDs": [
+          "4Y6KFQQWHW.com.meloflow.pomelo"
+        ],
+        "components": [
+          {
+            "/": "/move",
+            "comment": "A Pomelo move code opens this build on the new phone"
+          },
+          {
+            "/": "/move/",
+            "comment": "The same, with a trailing slash"
+          }
+        ]
+      },
+      {
+        "appIDs": [
+          "4Y6KFQQWHW.com.meloflow.pomelo.staging"
+        ],
+        "components": [
+          {
+            "/": "/move/staging",
+            "comment": "A Pomelo move code opens this build on the new phone"
+          },
+          {
+            "/": "/move/staging/",
+            "comment": "The same, with a trailing slash"
+          }
+        ]
+      },
+      {
+        "appIDs": [
+          "4Y6KFQQWHW.com.meloflow.pomelo.dev"
+        ],
+        "components": [
+          {
+            "/": "/move/dev",
+            "comment": "A Pomelo move code opens this build on the new phone"
+          },
+          {
+            "/": "/move/dev/",
+            "comment": "The same, with a trailing slash"
+          }
+        ]
       }
     ]
   },
