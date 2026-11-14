@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <meta content="noindex" name="robots"/>
+    <meta content="no-referrer" name="referrer"/>
+    <title>Move to Pomelo</title>
+    <style>
+        :root { color-scheme: light dark; }
+        body { font-family: -apple-system, system-ui, sans-serif; margin: 0; padding: 48px 24px;
+               max-width: 460px; margin-inline: auto; line-height: 1.5; }
+        h1 { font-size: 1.6rem; margin: 0 0 12px; }
+        p { margin: 0 0 16px; opacity: 0.8; }
+        .stores { display: flex; flex-direction: column; gap: 12px; margin-top: 24px; }
+        .stores a { display: block; text-align: center; padding: 14px; border-radius: 999px;
+                    background: #1f8fea; color: #fff; text-decoration: none; font-weight: 600; }
+        .stores a.secondary { background: transparent; color: #1f8fea; border: 1px solid #1f8fea; }
+    </style>
+</head>
+<body>
+<h1>Get Pomelo, then scan again</h1>
+<p>This code moves your Pomelo tasks from your old phone to this one. Pomelo isn't on this phone yet.</p>
+<p>Install it, then scan the code on your old phone again. Your data goes straight between the two phones.</p>
+<div class="stores">
+    <a href="https://apps.apple.com/app/id6766460904" id="app-store">Get Pomelo on the App Store</a>
+    <a class="secondary" href="https://play.google.com/store/apps/details?id=com.meloflow.pomelo" id="play">Get Pomelo on Google Play</a>
+</div>
+<script>
+    // The move code's key is after the #. Browsers never send it to this
+    // site; take it out of the address bar and history too.
+    if (location.hash) history.replaceState(null, '', location.pathname);
+    // Straight to the right store; the buttons stay for anyone it misses.
+    var ua = navigator.userAgent;
+    if (/iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && 'ontouchend' in document)) {
+        location.replace('https://apps.apple.com/app/id6766460904');
+    } else if (/Android/.test(ua)) {
+        location.replace('https://play.google.com/store/apps/details?id=com.meloflow.pomelo');
+    }
+</script>
+</body>
+</html>
