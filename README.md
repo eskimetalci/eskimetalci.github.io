@@ -15,3 +15,12 @@ of the page. It lists each package's signing certificates: the upload key and
 the debug key. Google Play re-signs installs with its own key, so its SHA-256
 (Play Console → Test and release → App integrity → App signing) has to be
 added to `com.meloflow.pomelo` once the app is on Play.
+
+`move/` is where a Pomelo move code points (the app's ADR 0016). The old
+phone shows a QR code holding `https://eskimetalci.github.io/move#…`; with
+Pomelo installed, the Camera app opens it, as the app-site-association file
+says. Without Pomelo the page there sends iPhones to the App Store and
+Android phones to Google Play. `move/staging/` and `move/dev/` do the same
+for the test builds, which each open their own path. The move key sits after
+the `#`, which browsers never send here, and the pages take it out of the
+address bar as they load.
